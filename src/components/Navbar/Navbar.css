@@ -1,0 +1,66 @@
+nav {
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 30px;
+  }
+
+  .conjunto {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+  }
+
+  .conjuntoLogoTitulo{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .wrapBotones{
+    /*margin-left: 350px;*/
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    display: flex;
+  }
+
+  .boton{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #264653;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+  }
+
+  .home {
+    margin-left: auto;
+  }
+
+  .logo {
+    width: 115px;
+    height: 90px;
+  }
+  
+  .titulo {
+    font-size: 28px;
+    color: #264653;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+  }
+
+  .wikiText {
+    color: #e9c46a;
+  }
+
+  .bordeTitulo {
+    background: rgba(36, 41, 46, 0.0);
+    border-radius: 15px;
+    border-bottom: 1px solid #264653;
+    border-top: 1px solid #264653;
+    border-right: 1px solid #264653;
+    border-left: 1px solid #264653;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  

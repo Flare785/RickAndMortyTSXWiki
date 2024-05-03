@@ -1,0 +1,47 @@
+.paginationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+  }
+  
+  .pageItem {
+    margin: 0;
+  }
+  
+  .pageLink, .btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #264653;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+  }
+  
+  .pageLink:hover, .btn:hover {
+    background-color: #e9ecef;
+    color: #e9c46a;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .active .pageLink {
+    background-color: #e9c46a;
+    color: white;
+  }
+  

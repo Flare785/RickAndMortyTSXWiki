@@ -1,0 +1,43 @@
+.globalSerach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.input{
+    display: flex;
+    width: 40%;
+    border-radius: 8px;
+    border: 2px solid #264653;
+    padding: 10px 20px;
+    &:focus{
+        outline: none;
+    }
+}
+
+.btn{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white; /* Color del texto */
+    background-color: #264653; /* Fondo del botón */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 20px; /* Tamaño del texto */
+    transition-duration: 0.4s; /* Duración de la transición */
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn:hover {
+    background-color: #e9ecef; /* Color de fondo al pasar el ratón */
+    color: #e9c46a; /* Color del texto al pasar el ratón */
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
